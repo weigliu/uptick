@@ -3,7 +3,7 @@
 var express = require('express');
 var app = express();
 var bodyParser = require('body-parser');
-var dbConfig = require('./config/dbConfig');
+var dbConfig = require('./config/Config');
 
 app.use(bodyParser.urlencoded({extended:true}));
 app.use(bodyParser.json());
