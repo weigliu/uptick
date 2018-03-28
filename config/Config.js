@@ -1,6 +1,6 @@
 module.exports = {
   connConfig: {
-    server: '10.21.87.90',
+    server: '10.21.87.74',
     database: 'Uptick',
     user: 'sa',
     password: 'nutanix/4u',
