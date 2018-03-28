@@ -1,6 +1,6 @@
 var express = require('express');
 var sql = require("mssql");
-var mssqldb = require('../config/mssqlConfig');
+var mssqldb = require('../config/Config');
 
 var routes = function(){
     var mssqlRouter = express.Router();
